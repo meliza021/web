@@ -32,7 +32,7 @@ class PrimaryButton extends HTMLElement {
             }
         `;
 
-        shadow.append(style, this.button);
+        shadow.append(style, this.button);//
     }
 
     connectedCallback() {
